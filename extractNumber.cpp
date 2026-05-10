@@ -158,11 +158,12 @@ int main() {
     string input;
  
     while (true) {
-        cout << "Enter a string (or 'END' to quit): ";
+        cout << "\n****** C++ Number Extractor ******\n";
+        cout << "\nEnter a string (or 'END' to quit): ";
         getline(cin, input);
  
         if (input == "END") {
-            cout << "Program terminated." << endl;
+            cout << "Have a nice day!" << endl;
             break;
         }
         double result = extractNumeric(input);
