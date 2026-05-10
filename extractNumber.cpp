@@ -156,9 +156,9 @@ double extractNumeric(const string& str) {
  
 int main() {
     string input;
- 
+    cout << "\n****** C++ Number Extractor ******\n";
+
     while (true) {
-        cout << "\n****** C++ Number Extractor ******\n";
         cout << "\nEnter a string (or 'END' to quit): ";
         getline(cin, input);
  
